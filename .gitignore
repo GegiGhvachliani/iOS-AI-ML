@@ -1,0 +1,35 @@
+# Xcode Process & Build Artifacts
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode User Data (Personal schemes, breakpoints, layout)
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager (Local Packages Cache & Build)
+.build/
+.swiftpm/
+Packages/
+
+# CocoaPods & Carthage (Only ignore built frameworks/pods if required)
+# Pods/
+# Carthage/Build/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Miscellaneous
+*.swiftmodule
+*.playground/playground.xcworkspace/
